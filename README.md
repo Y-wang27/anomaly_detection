@@ -1,2 +1,2 @@
 # anomaly_detection
-Data analysis project for detecting anomaly in dataset
+This is my data analysis project for detecting anomalies in a dataset. The dataset used came from here https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud and it contains transactions that occurs in two days with some labelled as frauds. This dataset is highly unbalanced as frauds only account for 0.172% of all transactions. Two categories of methods are used to determine the anomalies, statistical methods with moving average calculations and Grubbs' test for outliers and distance based methods with KNN and DBSCAN clustering.
